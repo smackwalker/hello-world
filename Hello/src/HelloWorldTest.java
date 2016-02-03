@@ -19,6 +19,7 @@ public class HelloWorldTest {
 		PrintStream pStream = new PrintStream(fOutputStream);
 		System.setOut(pStream);
 		//Test this twice: once null and once with arg
+		//Create new methods to test each functionality
 		HelloWorld.main(null);
 		Scanner keyboard = new Scanner(file);
 //		int test = 0;
