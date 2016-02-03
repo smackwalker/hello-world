@@ -18,10 +18,11 @@ public class HelloWorldTest {
 		FileOutputStream fOutputStream = new FileOutputStream(file);
 		PrintStream pStream = new PrintStream(fOutputStream);
 		System.setOut(pStream);
+		//Test this twice: once null and once with arg
 		HelloWorld.main(null);
 		Scanner keyboard = new Scanner(file);
-		int test = 0;
-		boolean pass = false;
+//		int test = 0;
+//		boolean pass = false;
 		assertEquals(keyboard.next(),"Hello");
 		assertEquals(keyboard.next(),"Scott");
 //		while (keyboard.hasNext())
