@@ -18,6 +18,7 @@ public class HelloWorldTest {
 		FileOutputStream fOutputStream = new FileOutputStream(file);
 		PrintStream pStream = new PrintStream(fOutputStream);
 		System.setOut(pStream);
+		//an attempt to check for changes line 21
 		//Test this twice: once null and once with arg
 		//Create new methods to test each functionality
 		HelloWorld.main(null);
