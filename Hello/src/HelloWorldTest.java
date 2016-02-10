@@ -18,6 +18,7 @@ public class HelloWorldTest {
 		FileOutputStream fOutputStream = new FileOutputStream(file);
 		PrintStream pStream = new PrintStream(fOutputStream);
 		System.setOut(pStream);
+		//line 21
 		HelloWorld.main(null);
 		Scanner keyboard = new Scanner(file);
 		int test = 0;
